@@ -9,21 +9,23 @@
 /* Begin PBXBuildFile section */
 		84BA262C28AC8B4B00B65848 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84BA262B28AC8B4B00B65848 /* AppDelegate.swift */; };
 		84BA262E28AC8B4B00B65848 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84BA262D28AC8B4B00B65848 /* SceneDelegate.swift */; };
-		84BA263028AC8B4B00B65848 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84BA262F28AC8B4B00B65848 /* ViewController.swift */; };
 		84BA263328AC8B4B00B65848 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 84BA263128AC8B4B00B65848 /* Main.storyboard */; };
 		84BA263528AC8B4C00B65848 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 84BA263428AC8B4C00B65848 /* Assets.xcassets */; };
 		84BA263828AC8B4D00B65848 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 84BA263628AC8B4D00B65848 /* LaunchScreen.storyboard */; };
+		84BA264028AC8CB200B65848 /* HighLowViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84BA263F28AC8CB200B65848 /* HighLowViewController.swift */; };
+		84BA264228AC8CD000B65848 /* Card.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84BA264128AC8CD000B65848 /* Card.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		84BA262828AC8B4B00B65848 /* highLowGame.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = highLowGame.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		84BA262B28AC8B4B00B65848 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		84BA262D28AC8B4B00B65848 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		84BA262F28AC8B4B00B65848 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		84BA263228AC8B4B00B65848 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		84BA263428AC8B4C00B65848 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		84BA263728AC8B4D00B65848 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		84BA263928AC8B4D00B65848 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		84BA263F28AC8CB200B65848 /* HighLowViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HighLowViewController.swift; sourceTree = "<group>"; };
+		84BA264128AC8CD000B65848 /* Card.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Card.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,11 +60,12 @@
 			children = (
 				84BA262B28AC8B4B00B65848 /* AppDelegate.swift */,
 				84BA262D28AC8B4B00B65848 /* SceneDelegate.swift */,
-				84BA262F28AC8B4B00B65848 /* ViewController.swift */,
+				84BA263F28AC8CB200B65848 /* HighLowViewController.swift */,
 				84BA263128AC8B4B00B65848 /* Main.storyboard */,
 				84BA263428AC8B4C00B65848 /* Assets.xcassets */,
 				84BA263628AC8B4D00B65848 /* LaunchScreen.storyboard */,
 				84BA263928AC8B4D00B65848 /* Info.plist */,
+				84BA264128AC8CD000B65848 /* Card.swift */,
 			);
 			path = highLowGame;
 			sourceTree = "<group>";
@@ -138,9 +141,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				84BA263028AC8B4B00B65848 /* ViewController.swift in Sources */,
 				84BA262C28AC8B4B00B65848 /* AppDelegate.swift in Sources */,
+				84BA264228AC8CD000B65848 /* Card.swift in Sources */,
 				84BA262E28AC8B4B00B65848 /* SceneDelegate.swift in Sources */,
+				84BA264028AC8CB200B65848 /* HighLowViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
